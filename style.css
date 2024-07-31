@@ -1,0 +1,22 @@
+body{
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    background-color: red;
+
+
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    gap: 10px;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 0.4em;
+    background-color: gray;
+    border-radius: 25px;
+    transition: .4s ease-in-out;
+}
